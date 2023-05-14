@@ -1,0 +1,184 @@
+{
+  "shapes" : [
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"software-user\",\n  \"position\" : \"{50, 390}\",\n  \"angle\" : 0,\n  \"size\" : \"{70, 100}\",\n  \"identifier\" : \"04CBA140-D3CD-49E6-B1C9-E220B3DCFCC3\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_1\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{270, 440}\",\n  \"identifier\" : \"70706153-98A1-4960-886B-CB6FF41B34D5\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{85, 440}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"merge\",\n  \"position\" : \"{270, 490}\",\n  \"angle\" : 270,\n  \"size\" : \"{100, 100}\",\n  \"identifier\" : \"D4AA7A41-DC27-49A6-B4EB-EC8D65A2E53C\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_15\",\n  \"privateStyle\" : {\n\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{370, 420}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 40}\",\n  \"identifier\" : \"89044225-F619-428B-85A0-DB351AA6BE77\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_15\",\n  \"value\" : \"Logged IN\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{400.59375, 325.69921875}\",\n  \"identifier\" : \"18CF2F1D-E07F-4A2A-BB62-862CDC1B6703\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{320, 415}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.25, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{400.59375, 574.99609375}\",\n  \"identifier\" : \"CF4F7FAA-9D66-4255-8065-A4A6629928A4\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{320, 465}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.25, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{400.59375, 305.69921875}\",\n  \"angle\" : 0,\n  \"size\" : \"{80, 40}\",\n  \"identifier\" : \"C9E69D91-1BC5-41F5-AB20-A09D7978F57C\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"True\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{400.59375, 554.99609375}\",\n  \"angle\" : 0,\n  \"size\" : \"{80, 40}\",\n  \"identifier\" : \"1B09FE1D-74FC-45B6-8B79-82841B09FF3B\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"False\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{1460, 320}\",\n  \"angle\" : 0,\n  \"size\" : \"{300, 190}\",\n  \"identifier\" : \"E421A724-DACE-4A59-A590-E2C70F52292B\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Home Page\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,36.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{570, 469.99609375}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"1B995821-C5E3-4317-B75B-F1BBD281B431\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Sign Up Page\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n    {\n      \"point\" : \"{545.978515625, 325.69921875}\",\n      \"axis\" : 1\n    },\n    {\n      \"point\" : \"{611.36328125, 370.349609375}\",\n      \"axis\" : 2\n    },\n    {\n      \"point\" : \"{1035.681640625, 415}\",\n      \"axis\" : 1\n    }\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{1460, 415}\",\n  \"identifier\" : \"C7F950F4-B5F9-43BC-A3AB-37C23DA8B7C8\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{480.59375, 325.69921875}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{570, 635}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"E5447FF3-5D53-494C-B6C2-6C5029EB6361\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Login Page\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{570, 504.99609375}\",\n  \"identifier\" : \"9B215248-8779-4693-9E01-D25512704C6A\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{480.59375, 574.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{570, 670}\",\n  \"identifier\" : \"4DCC2E41-7742-4D77-AC7A-7253FE57B79F\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{480.59375, 574.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{1140, 539.99609375}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"C56B707B-3B97-4948-8A8B-AECD1398A001\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"User Authenticated\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{1460, 415}\",\n  \"identifier\" : \"2182997A-8110-4EE9-9371-F619FA0D453A\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{1240, 574.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : true,\n  \"shape\" : \"svg\",\n  \"position\" : \"{780, 524.99609375}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 100}\",\n  \"identifier\" : \"84D89116-FB91-4695-8719-751468A09F9F\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_13\",\n  \"value\" : \"\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false,\n  \"shapeOption\" : {\n    \"name\" : \"awsai2020>Internet of Things\\\/AWS-IoT-Analytics_Data-Store_dark-bg\",\n    \"isTemplate\" : false\n  }\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{569.5390625, 469.99609375}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"ECA2FD3E-D81C-481E-BD53-F874157F6FF2\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Sign Up Page\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{780, 574.99609375}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"CheckAccount\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.43957002990618854,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"DDEF1614-633F-4ACA-AD06-3E9C4B6346DF\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#000000FF\",\n    \"textAlignment\" : 2,\n    \"textBackgroundColor\" : \"#FFFFFFFF\",\n    \"textVerticalAlignment\" : 1,\n    \"crossStyle\" : \"round\",\n    \"font\" : \"Helvetica,12.0\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{670, 504.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{780, 574.99609375}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Create Account\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.6000921210151472,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"975C1D50-DB6C-471F-A367-B4F17E883F68\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#000000FF\",\n    \"textAlignment\" : 2,\n    \"textBackgroundColor\" : \"#FFFFFFFF\",\n    \"textVerticalAlignment\" : 1,\n    \"crossStyle\" : \"round\",\n    \"font\" : \"Helvetica,12.0\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{670, 670}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{970, 539.99609375}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"1382AB8A-4522-4E60-8AF8-5EB874935B39\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"JWT\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#6388CAFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{1140, 574.99609375}\",\n  \"identifier\" : \"5426F8F4-1A8D-42BD-807F-E9A4B9FF09E6\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{1070, 574.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{970, 574.99609375}\",\n  \"identifier\" : \"B6982A98-1586-43BF-A964-4C96866CC55E\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{830, 574.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{619.5390625, 469.99609375}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"JWT\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.6052387547098339,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"8940C92E-56AD-47C0-A5C6-0B04082406E7\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"textBackgroundColor\" : \"#FFFFFFFF\",\n    \"textVerticalAlignment\" : 1,\n    \"crossStyle\" : \"round\",\n    \"strokeColor\" : \"#008F00FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{830, 524.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{620, 705}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"JWT\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.61444658049453671,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"053ED1C2-21BB-48D4-A2DB-4AD8DA78C4EB\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"textBackgroundColor\" : \"#FFFFFFFF\",\n    \"textVerticalAlignment\" : 1,\n    \"crossStyle\" : \"round\",\n    \"strokeColor\" : \"#008F00FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  },\n  \"sourcePoint\" : \"{830, 624.99609375}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}",
+      "class" : "connector"
+    }
+  ],
+  "frame" : [
+    [
+      0,
+      0
+    ],
+    [
+      2401,
+      1169
+    ]
+  ],
+  "terminals" : {
+    "5426F8F4-1A8D-42BD-807F-E9A4B9FF09E6" : [
+      "1382AB8A-4522-4E60-8AF8-5EB874935B39",
+      "C56B707B-3B97-4948-8A8B-AECD1398A001"
+    ],
+    "18CF2F1D-E07F-4A2A-BB62-862CDC1B6703" : [
+      "D4AA7A41-DC27-49A6-B4EB-EC8D65A2E53C",
+      "C9E69D91-1BC5-41F5-AB20-A09D7978F57C"
+    ],
+    "DDEF1614-633F-4ACA-AD06-3E9C4B6346DF" : [
+      "1B995821-C5E3-4317-B75B-F1BBD281B431",
+      "84D89116-FB91-4695-8719-751468A09F9F"
+    ],
+    "9B215248-8779-4693-9E01-D25512704C6A" : [
+      "1B09FE1D-74FC-45B6-8B79-82841B09FF3B",
+      "1B995821-C5E3-4317-B75B-F1BBD281B431"
+    ],
+    "2182997A-8110-4EE9-9371-F619FA0D453A" : [
+      "C56B707B-3B97-4948-8A8B-AECD1398A001",
+      "E421A724-DACE-4A59-A590-E2C70F52292B"
+    ],
+    "C7F950F4-B5F9-43BC-A3AB-37C23DA8B7C8" : [
+      "C9E69D91-1BC5-41F5-AB20-A09D7978F57C",
+      "E421A724-DACE-4A59-A590-E2C70F52292B"
+    ],
+    "B6982A98-1586-43BF-A964-4C96866CC55E" : [
+      "84D89116-FB91-4695-8719-751468A09F9F",
+      "1382AB8A-4522-4E60-8AF8-5EB874935B39"
+    ],
+    "4DCC2E41-7742-4D77-AC7A-7253FE57B79F" : [
+      "1B09FE1D-74FC-45B6-8B79-82841B09FF3B",
+      "E5447FF3-5D53-494C-B6C2-6C5029EB6361"
+    ],
+    "8940C92E-56AD-47C0-A5C6-0B04082406E7" : [
+      "84D89116-FB91-4695-8719-751468A09F9F",
+      "ECA2FD3E-D81C-481E-BD53-F874157F6FF2"
+    ],
+    "975C1D50-DB6C-471F-A367-B4F17E883F68" : [
+      "E5447FF3-5D53-494C-B6C2-6C5029EB6361",
+      "84D89116-FB91-4695-8719-751468A09F9F"
+    ],
+    "CF4F7FAA-9D66-4255-8065-A4A6629928A4" : [
+      "D4AA7A41-DC27-49A6-B4EB-EC8D65A2E53C",
+      "1B09FE1D-74FC-45B6-8B79-82841B09FF3B"
+    ],
+    "053ED1C2-21BB-48D4-A2DB-4AD8DA78C4EB" : [
+      "84D89116-FB91-4695-8719-751468A09F9F",
+      "E5447FF3-5D53-494C-B6C2-6C5029EB6361"
+    ],
+    "70706153-98A1-4960-886B-CB6FF41B34D5" : [
+      "04CBA140-D3CD-49E6-B1C9-E220B3DCFCC3",
+      "D4AA7A41-DC27-49A6-B4EB-EC8D65A2E53C"
+    ]
+  },
+  "design" : {
+    "connectorPathStyle" : "rounded",
+    "themeName" : "office",
+    "paper" : {
+      "rightMargin" : 20,
+      "bottomMargin" : 20,
+      "topMargin" : 20,
+      "name" : "a4",
+      "leftMargin" : 20,
+      "ori" : true
+    },
+    "autoFrame" : true,
+    "showPageMarker" : true
+  },
+  "showsGrids" : true,
+  "version" : "100"
+}
