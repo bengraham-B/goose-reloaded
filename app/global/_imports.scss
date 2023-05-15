@@ -5,12 +5,15 @@
 @import '../auth/Signup/styles/signup';
 
 
-
 //& Components
 @import '../components/Footer/styles/Footer';
 @import '../components/Header/styles/Header';
+
+//& LandingPage
+@import '../styles/landing-page';
 
 
 //& Home Page
 @import '../home/stylesHome/HomePage';
 @import '../home/stylesHome/layoutHome';
+@import '../home/componetsHome/styles/Sidebar';

@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
 	return (
-		<div id="Home-Page">
+		<div id="Landing-Page">
 		
 			<div className="test-container">
 				<h1>Welcone to GOOSE_RELEADED</h1>

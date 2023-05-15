@@ -17,11 +17,16 @@ export default function RootLayout({ children }) {
   	return (
     	<html lang="en">
 			<body className={inter.className}>
-				{children}
 
-                <div className="side-bar-container">
-                    <SideBar/>
-                </div>
+				<div id="Layout-Home">
+
+					<div className="side-bar-container">
+						<SideBar/>
+					</div>
+
+					{children}
+
+				</div>
       			
 
 				
