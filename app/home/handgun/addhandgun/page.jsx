@@ -6,22 +6,23 @@ import React, { useState } from 'react'
 export default function page() {
 	const pageTitle = "Handgun"
 
-	const [userTitle, setUserTitle] = useState()
+	const [userTitle, setUserTitle] = useState("test")
 
-	const [bulletHeadMake, setBulletHeadMake] = useState()
-	const [bulletHeadType, setBulletHeadType] = useState()
-	const [bulletWeight, setBulletHeadWeight] = useState()
+	const [bulletHeadMake, setBulletHeadMake] = useState("test")
+	const [bulletHeadType, setBulletHeadType] = useState("test")
+	const [bulletWeight, setBulletHeadWeight] = useState("test")
 
-	const [powderMake, setPowderMake] = useState()
-	const [powderType, setPowderType] = useState()
-	const [powderWeight, setPowderWeight] = useState()
+	const [powderMake, setPowderMake] = useState("test")
+	const [powderType, setPowderType] = useState("test")
+	const [powderWeight, setPowderWeight] = useState("test")
 
-	const [casingMake, setCasingMake] = useState()
-	const [primerMake, setPrimerMake] = useState()
+	const [casingMake, setCasingMake] = useState("test")
+	const [primerMake, setPrimerMake] = useState("test")
 
 	//^ This is the function when clicked will send all the data stored in the state variables to the server
 	const handleHandgunSubmit = async () => {
-		const response = fetch('http://localhost:8001/api/reload', {
+		console.log("Pre post")
+		const response = await fetch('http://192.168.101.48:8001/api/reload', {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
@@ -38,13 +39,14 @@ export default function page() {
 				powder_weight: powderWeight,
 
 				casing_make: casingMake,
-				
+
 				primer_make: primerMake,
 			})
 		})
 
-		const data = response.json()
+		const data = await response.json()
 		console.log(data)
+		console.log("Post POST")
 	}
 
 	
@@ -66,39 +68,39 @@ export default function page() {
 
 					<div className="item-wrapper">
 						<h2>User Title</h2>
-						<input type="text" className="input" onChange={() => setUserTitle(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setUserTitle(e.target.value)} />
 					</div>
 
 					<div className="item-wrapper">
 						<h2>Bullet Head Make</h2>
-						<input type="text" className="input" onChange={() => setBulletHeadMake(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setBulletHeadMake(e.target.value)} />
 
 						<h2>Bullet Head Type</h2>
-						<input type="text" className="input" onChange={() => setBulletHeadType(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setBulletHeadType(e.target.value)} />
 
 						<h2>Bullet Head weight</h2>
-						<input type="text" className="input"onChange={() => setBulletHeadWeight(e.target.value)} />
+						<input type="text" className="input"onChange={(e) => setBulletHeadWeight(e.target.value)} />
 					</div>
 
 					<div className="item-wrapper">
 						<h2>Powder Make</h2>
-						<input type="text" className="input" onChange={() => setPowderMake(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setPowderMake(e.target.value)} />
 
 						<h2>Powder Type</h2>
-						<input type="text" className="input" onChange={() => setPowderType(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setPowderType(e.target.value)} />
 
 						<h2>Powder Weight</h2>
-						<input type="text" className="input" onChange={() => setPowderWeight(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setPowderWeight(e.target.value)} />
 					</div>
 					
 					<div className="item-wrapper">
 						<h2>Casing Make</h2>
-						<input type="text" className="input" onChange={() => setCasingMake(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setCasingMake(e.target.value)} />
 					</div>
 					
 					<div className="item-wrapper">
 						<h2>Primer Make</h2>
-						<input type="text" className="input" onChange={() => setPrimerMake(e.target.value)} />
+						<input type="text" className="input" onChange={(e) => setPrimerMake(e.target.value)} />
 					</div>
 
 					<div className="button-wrapper">
