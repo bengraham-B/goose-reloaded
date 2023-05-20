@@ -8,7 +8,11 @@ const post_reload =  async (req, res) => {
     const caliberBody = req.body.caliber
     const userId = "Albert E G"
 
-    const reload_post = await Reload.create({ caliber: caliberBody, powder: powderBody, user_id: userId})
+    const reload_post = await Reload.create({ 
+        caliber: caliberBody, 
+        powder: powderBody, 
+        user_id: userId
+    })
     console.log(reload_post)
 
 
