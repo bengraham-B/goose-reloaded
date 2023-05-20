@@ -7,15 +7,15 @@ const Schema = mongoose.Schema
 const reloadSchema = new Schema({
     caliber:{
         type: String,
-        required: true,
+        required: false,
     },
     powder: {
         type: String,
-        required: true
+        required: false
     },
     user_id:{
         type: String,
-        required: true
+        required: false
     }
 
 }, {timestamps: true})
