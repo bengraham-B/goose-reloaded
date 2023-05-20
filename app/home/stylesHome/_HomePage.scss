@@ -31,14 +31,15 @@
                 width: 400px;
                 height: 200px;
 
-                outline: 1px solid $primaryBlue;
+                border: 1px solid black;
                 border-radius: 15px;
                 margin: 50px;
 
-                box-shadow: 10px 15px 0 10px  black;
+                box-shadow: 10px 10px 0 7.5px  black;
 
                 &:hover {
                     box-shadow: 10px 15px 0 10px  blue;
+                    border: 1px solid $primaryBlue;
                 }
 
                 h3 {
@@ -62,7 +63,6 @@
 
                     &:hover {
                         background: blue;
-                        // box-shadow: 1px 2px 5px 2px  $primaryBlue;
                         color: white;
                         border: none;
                         a{

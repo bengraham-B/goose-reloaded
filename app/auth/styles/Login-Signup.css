@@ -74,13 +74,14 @@
   justify-content: space-around;
   width: 400px;
   height: 200px;
-  outline: 1px solid blue;
+  border: 1px solid black;
   border-radius: 15px;
   margin: 50px;
-  box-shadow: 10px 15px 0 10px black;
+  box-shadow: 10px 10px 0 7.5px black;
 }
 #HomePage .comp-container .wrapper .container:hover {
   box-shadow: 10px 15px 0 10px blue;
+  border: 1px solid blue;
 }
 #HomePage .comp-container .wrapper .container h3 {
   color: blue;
@@ -214,22 +215,59 @@
   width: 100%;
   min-height: 90vh;
   max-height: auto;
-  background: orange;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #Add-Handgun .form-container .form-wrapper {
-  height: 500px;
+  height: auto;
+  margin: 20px 20px;
   width: 80%;
   border-radius: 5px;
-  background: green;
+  color: blue;
+  box-shadow: 1px 1px 10px 1px grey;
 }
 #Add-Handgun .form-container .form-wrapper .title-wrapper {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px;
+}
+#Add-Handgun .form-container .form-wrapper .item-wrapper {
+  margin: 20px;
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+#Add-Handgun .form-container .form-wrapper .item-wrapper h2 {
+  margin: 5px;
+}
+#Add-Handgun .form-container .form-wrapper .item-wrapper input {
+  margin: 5px;
+  border: 1px solid blue;
+  font-size: 15px;
+  padding: 5px;
+  width: 90%;
+}
+#Add-Handgun .form-container .form-wrapper .button-wrapper {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Add-Handgun .form-container .form-wrapper .button-wrapper button {
+  width: 240px;
+  height: 60px;
+  font-size: 21px;
+  border: 1px solid blue;
+  background: none;
+  border-radius: 5px;
+  color: blue;
+}
+#Add-Handgun .form-container .form-wrapper .button-wrapper button:hover {
+  background: blue;
+  color: white;
 }
 
 .test {

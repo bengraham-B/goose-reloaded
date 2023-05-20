@@ -22,7 +22,7 @@ export default function SideBar() {
 					</div>
 
 					<div className="option-wrapper">
-						<Link href="/reload">
+						<Link href="/home/handgun">
 							<div className='box-wrapper'>
 								<h3>Handgun</h3>
 							</div>
@@ -30,15 +30,15 @@ export default function SideBar() {
 					</div>
 
 					<div className="option-wrapper">
-						<Link href="/shoots">
+						<Link href="/home/rifle">
 							<div className='box-wrapper'>
-								<h3>Shoots</h3>
+								<h3>Rifle</h3>
 							</div>
 						</Link>
 					</div>
 					
 					<div className="option-wrapper">
-						<Link href="/shoots">
+						<Link href="/home/shotgun">
 							<div className='box-wrapper'>
 								<h3>Shotgun</h3>
 							</div>
@@ -46,7 +46,7 @@ export default function SideBar() {
 					</div>
 					
 					<div className="option-wrapper">
-						<Link href="/shoots">
+						<Link href="/home/rifle">
 							<div className='box-wrapper'>
 								<h3>Shoots</h3>
 							</div>

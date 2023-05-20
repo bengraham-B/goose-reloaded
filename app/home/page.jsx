@@ -21,24 +21,24 @@ export default function page() {
 					<p>{15} Reloads</p>
 				</div>
 
-				<div className="container">
+				<div className="container handgun">
 					<h3>Handgun</h3>
 					<button>
 						<Link href="/home/handgun">Add Reload</Link>
 					</button>
 				</div>
 
-				<div className="container">
+				<div className="container rifle">
 					<h3>Rifle</h3>
 					<button>
-						<Link href="/home/handgun">Add Reload</Link>
+						<Link href="/home/rifle">Add Reload</Link>
 					</button>
 				</div>
 
-				<div className="container">
+				<div className="container shotgun">
 					<h3>Shotgun</h3>
 					<button>
-						<Link href="/home/handgun">Add Reload</Link>
+						<Link href="/home/shotgun">Add Reload</Link>
 					</button>
 				</div>
 
