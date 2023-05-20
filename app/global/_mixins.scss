@@ -3,3 +3,8 @@
     align-items: center;
     justify-content: center;
 }
+
+//& This function servers to test that the important statements are handled correctly.
+@mixin global_test() {
+    align-items: center;
+}

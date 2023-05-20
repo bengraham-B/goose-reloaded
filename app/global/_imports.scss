@@ -13,7 +13,20 @@
 @import '../styles/landing-page';
 
 
-//& Home Page
-@import '../home/stylesHome/HomePage';
-@import '../home/stylesHome/layoutHome';
-@import '../home/componetsHome/styles/Sidebar';
+    //& Home Page
+    @import '../home/stylesHome/HomePage';
+    @import '../home/stylesHome/layoutHome';
+    @import '../home/componetsHome/styles/Sidebar';
+
+        //& Handgun
+        @import '../home/handgun/styles/HangunPage';
+
+            //& AddHandgun
+            @import '../home/handgun/addhandgun/styles/addHandgun';
+
+        // //& rifle
+        // @import '../home/rifle/';
+        
+        // //& Shotgun
+        // @import '../home/rifle/';
+

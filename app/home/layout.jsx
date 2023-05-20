@@ -1,4 +1,4 @@
-import '../global/styles.css';
+// import '../global/styles.css';
 
 import { Inter } from 'next/font/google'
 import SideBar from './componetsHome/SideBar';
@@ -28,8 +28,6 @@ export default function RootLayout({ children }) {
 
 				</div>
       			
-
-				
 				
 			</body>
     	</html>

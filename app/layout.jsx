@@ -1,4 +1,4 @@
-import './global/styles.css';
+import './global/styles.css'; //& This is where all the SASS styles are imported from.
 
 import { Inter } from 'next/font/google'
 
