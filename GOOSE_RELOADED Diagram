@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T04:15:17.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8qrWCUIeUBzk31VZsH9a" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T04:17:11.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jR43JMG64s-09LLaUij1" version="21.2.2" type="github">
   <diagram name="Page-1" id="o1bOIJuOjUN4k_aocpNO">
-    <mxGraphModel dx="1908" dy="2465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="516" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,9 @@
         </mxCell>
         <mxCell id="xMCiznvXuQJXccrHZAgW-72" value="&lt;h1&gt;Reload Form&lt;/h1&gt;&lt;div&gt;When the user clicks the add reload button they will then be directed to this page.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This form will allow user to add all their data to the database.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The user will remain on this page after they click the button, as this will allow users to add multiple reloads&amp;nbsp; without having to navigate back and forth.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3160" y="-70" width="303.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCiznvXuQJXccrHZAgW-74" value="&lt;h1&gt;Home Page&lt;/h1&gt;&lt;div&gt;This page will show all the user&#39;s current reloads and the button which will direct them to the form which will allow them to add a new reload.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The user will be able to from this page edit and delete their current reloads.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1895" y="-70" width="300" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
