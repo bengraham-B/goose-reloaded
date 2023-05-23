@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T04:07:26.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Tb7ny58XZvn6LMI0KNs5" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T04:08:08.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="4UBrmnFWhE3zQBRXwVZy" version="21.2.2" type="github">
   <diagram name="Page-1" id="o1bOIJuOjUN4k_aocpNO">
     <mxGraphModel dx="1060" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,8 +139,20 @@
         <mxCell id="xMCiznvXuQJXccrHZAgW-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2950" y="1110" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMCiznvXuQJXccrHZAgW-63" value="Powder Make" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xMCiznvXuQJXccrHZAgW-63" value="Casing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2950" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCiznvXuQJXccrHZAgW-65" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="2933.5" y="1200" width="753" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCiznvXuQJXccrHZAgW-66" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="1260" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCiznvXuQJXccrHZAgW-67" value="Primer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="1220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCiznvXuQJXccrHZAgW-68" value="Add Reload" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBackgroundColor=none;fillColor=#0000FF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1340" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
